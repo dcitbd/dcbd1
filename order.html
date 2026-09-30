@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="bn" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>অর্ডার ফর্ম | Dream Cart BD</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7IMYDMkNYleCqUCLvSDtcioP1MAENEONLcelVu_7byA&s=10">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Notice Bar -->
+  <div class="notice-bar">
+    <div class="container notice-bar-inner">
+      <div class="notice-ticker">
+        <span class="notice-ticker-text">
+          📢 ৳২,০০০ বা তার বেশি অর্ডারে ফ্রি শিপিং! • অনলাইনে অর্ডার করুন, পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন • অনলাইনে পেমেন্ট করলে ৫% ডিসকাউন্ট! • হেল্পলাইন: 01581703822, 01818273838
+        </span>
+      </div>
+      <div class="notice-contacts">
+        <a href="tel:01581703822"><i class="fa fa-phone-alt"></i> 01581703822</a>
+        <a href="https://wa.me/8801581703822" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo-wrap">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7IMYDMkNYleCqUCLvSDtcioP1MAENEONLcelVu_7byA&s=10" alt="Dream Cart BD Logo">
+        <span>Dream Cart BD</span>
+      </a>
+
+      <div class="search-wrapper">
+        <div class="search-input-group">
+          <i class="fa fa-search" style="color: var(--text-muted); margin-right: 6px;"></i>
+          <input type="text" class="live-search-input" placeholder="পণ্য বা মডেল দিয়ে সার্চ করুন..." autocomplete="off">
+        </div>
+        <div class="search-preview-box"></div>
+      </div>
+
+      <div class="nav-actions">
+        <a href="products.html" class="nav-btn"><i class="fa fa-th-large"></i> <span>Products</span></a>
+        <a href="cart.html" class="nav-btn">
+          <i class="fa fa-shopping-cart"></i> <span>Cart</span>
+          <span class="nav-badge cart-count-badge">0</span>
+        </a>
+        <a href="favourite.html" class="nav-btn" title="Favourite">
+          <i class="fa fa-heart"></i>
+          <span class="nav-badge fav-count-badge">0</span>
+        </a>
+        <a href="customer/login.html" class="nav-btn" id="nav-auth-btn"><i class="fa fa-user"></i> <span>Login</span></a>
+        <button class="theme-toggle-btn" title="Toggle Dark/Light Mode"><i class="fas fa-moon"></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Body -->
+  
+<main class="container" style="margin-top: 30px; max-width: 900px;">
+  <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 30px;">
+    <h2 style="font-size: 22px; font-weight: 800; margin-bottom: 6px; text-align: center;">অর্ডার ফর্ম পূরণ করুন</h2>
+    <p style="font-size: 13px; color: var(--text-muted); text-align: center; margin-bottom: 24px;">সঠিক তথ্য দিন, আমাদের প্রতিনিধি দ্রুত ডেলিভারির ব্যবস্থা করবেন।</p>
+
+    <form id="master-order-form">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 20px;">
+        <div>
+          <label style="font-size: 13px; font-weight: 700; margin-bottom: 6px; display: block;">আপনার নাম *</label>
+          <input type="text" name="customerName" required placeholder="পুরো নাম লিখুন" style="width: 100%; padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-main);">
+        </div>
+        <div>
+          <label style="font-size: 13px; font-weight: 700; margin-bottom: 6px; display: block;">মোবাইল নম্বর *</label>
+          <input type="tel" name="phone" id="order-phone-input" required placeholder="01XXXXXXXXX" style="width: 100%; padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-main);">
+        </div>
+      </div>
+
+      <div style="margin-bottom: 20px;">
+        <label style="font-size: 13px; font-weight: 700; margin-bottom: 6px; display: block;">ডেলিভারি ঠিকানা (জেলা, থানা ও বিস্তারিত ঠিকানা) *</label>
+        <textarea name="address" required placeholder="যেমন: বাসা নং, রোড নং, এলাকা, থানা, জেলা..." rows="3" style="width: 100%; padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-main);"></textarea>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 24px;">
+        <div>
+          <label style="font-size: 13px; font-weight: 700; margin-bottom: 6px; display: block;">ডেলিভারি এরিয়া *</label>
+          <select name="deliveryArea" id="delivery-area-select" style="width: 100%; padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-main);">
+            <option value="cumilla">কুমিল্লা জেলা সদর (৳৭০)</option>
+            <option value="dhaka">ঢাকা সিটির ভিতরে (৳৯০)</option>
+            <option value="outside_dhaka">ঢাকার বাইরে অন্যান্য জেলা (৳১২০)</option>
+            <option value="office_pickup">অফিস থেকে পিকআপ (ফ্রি)</option>
+          </select>
+        </div>
+        <div>
+          <label style="font-size: 13px; font-weight: 700; margin-bottom: 6px; display: block;">পেমেন্ট মেথড *</label>
+          <select name="paymentMethod" id="payment-method-select" style="width: 100%; padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-main);">
+            <option value="Cash On Delivery (COD)">ক্যাশ অন ডেলিভারি (COD)</option>
+            <option value="Bkash Personal">বিকাশ পার্সোনাল (৫% ডিসকাউন্ট)</option>
+            <option value="Bkash Payment">বিকাশ মার্চেন্ট পেমেন্ট (৫% ডিসকাউন্ট)</option>
+            <option value="Nagad Personal">নগদ পার্সোনাল (৫% ডিসকাউন্ট)</option>
+            <option value="Rocket Personal">রকেট পার্সোনাল (৫% ডিসকাউন্ট)</option>
+            <option value="Bank Account">ব্যাংক ডিপোজিট (৫% ডিসকাউন্ট)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Live Price Calculation Box -->
+      <div style="background: var(--bg-surface); border: 1px dashed var(--border-color); border-radius: var(--radius-sm); padding: 16px; margin-bottom: 24px; font-size: 14px;">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 6px;">
+          <span>পণ্যের মূল্য:</span>
+          <strong id="order-product-subtotal">৳0</strong>
+        </div>
+        <div style="display: flex; justify-content: space-between; margin-bottom: 6px;">
+          <span>ডেলিভারি চার্জ:</span>
+          <span id="order-delivery-charge">৳70</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; margin-bottom: 6px; color: #10b981;">
+          <span>অনলাইন পেমেন্ট ডিসকাউন্ট (৫%):</span>
+          <span id="order-online-discount">-৳0</span>
+        </div>
+        <hr style="border: none; border-top: 1px solid var(--border-color); margin: 8px 0;">
+        <div style="display: flex; justify-content: space-between; font-size: 18px; font-weight: 800; color: var(--primary);">
+          <span>সর্বমোট প্রদেয়:</span>
+          <span id="order-grand-total">৳0</span>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-order-now" style="width: 100%; padding: 14px; font-size: 16px;">
+        <i class="fa fa-check-circle"></i> অর্ডার নিশ্চিত করুন
+      </button>
+    </form>
+  </div>
+</main>
+
+<script>
+  document.addEventListener('DOMContentLoaded', async () => {
+    const db = await loadDatabase();
+    const urlParams = new URLSearchParams(window.location.search);
+    const sku = urlParams.get('sku');
+
+    let orderItems = [];
+    if (sku) {
+      const p = (db.products || []).find(x => x.SKU === sku);
+      if (p) orderItems.push({ product: p, qty: 1 });
+    } else if (currentCart.length) {
+      currentCart.forEach(item => {
+        const p = (db.products || []).find(x => x.SKU === item.sku);
+        if (p) orderItems.push({ product: p, qty: item.qty });
+      });
+    }
+
+    if (!orderItems.length && db.products && db.products.length) {
+      orderItems.push({ product: db.products[0], qty: 1 });
+    }
+
+    const form = document.getElementById('master-order-form');
+    const areaSelect = document.getElementById('delivery-area-select');
+    const paySelect = document.getElementById('payment-method-select');
+    const subtotalEl = document.getElementById('order-product-subtotal');
+    const deliveryEl = document.getElementById('order-delivery-charge');
+    const discountEl = document.getElementById('order-online-discount');
+    const grandEl = document.getElementById('order-grand-total');
+    const phoneInput = document.getElementById('order-phone-input');
+
+    // Incomplete order detection
+    let incompleteRecorded = false;
+    phoneInput.addEventListener('blur', () => {
+      const phone = phoneInput.value.trim();
+      if (phone.length >= 11 && !incompleteRecorded) {
+        incompleteRecorded = true;
+        try {
+          fetch(APP_CONFIG.appScriptUrl, {
+            method: 'POST',
+            body: JSON.stringify({
+              action: 'createIncompleteOrder',
+              data: {
+                Phone: phone,
+                Customer_Name: form.customerName.value.trim(),
+                Products: orderItems.map(i => i.product.P_Name).join(', '),
+                Total_Amount: grandEl.textContent.replace('৳', '')
+              }
+            })
+          });
+        } catch (e) {}
+      }
+    });
+
+    function calculateTotal() {
+      let subtotal = 0;
+      orderItems.forEach(i => subtotal += (parseFloat(i.product.Selling_Price) || 0) * i.qty);
+
+      // Delivery Fee calculation
+      let deliveryFee = 70;
+      if (areaSelect.value === 'dhaka') deliveryFee = 90;
+      if (areaSelect.value === 'outside_dhaka') deliveryFee = 120;
+      if (areaSelect.value === 'office_pickup') deliveryFee = 0;
+
+      // Over 2000 shopping free delivery
+      if (subtotal >= 2000) {
+        deliveryFee = 0;
+      }
+
+      // Online payment 5% discount
+      let discount = 0;
+      if (paySelect.value !== 'Cash On Delivery (COD)') {
+        discount = Math.round(subtotal * 0.05);
+      }
+
+      const grandTotal = Math.max(0, subtotal + deliveryFee - discount);
+
+      subtotalEl.textContent = '৳' + subtotal;
+      deliveryEl.textContent = deliveryFee === 0 ? 'ফ্রি (৳০)' : '৳' + deliveryFee;
+      discountEl.textContent = '-৳' + discount;
+      grandEl.textContent = '৳' + grandTotal;
+
+      return { subtotal, deliveryFee, discount, grandTotal };
+    }
+
+    areaSelect.addEventListener('change', calculateTotal);
+    paySelect.addEventListener('change', calculateTotal);
+    calculateTotal();
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const calc = calculateTotal();
+      const orderId = 'DCBD-' + Math.floor(100000 + Math.random() * 900000);
+
+      const orderData = {
+        OrderID: orderId,
+        Date: new Date().toLocaleString('en-US'),
+        Account_type: getCurrentUser() ? getCurrentUser().Account_Type : 'Customer',
+        Customer_Name: form.customerName.value.trim(),
+        Phone: form.phone.value.trim(),
+        Address: form.address.value.trim() + ' (' + areaSelect.options[areaSelect.selectedIndex].text + ')',
+        Products: orderItems.map(i => `${i.product.P_Name} (x${i.qty})`).join(', '),
+        Quantity: orderItems.reduce((acc, i) => acc + i.qty, 0),
+        Total_Amount: calc.grandTotal,
+        Payment_method: paySelect.value,
+        Transaction_ID: '',
+        Payment_Status: paySelect.value === 'Cash On Delivery (COD)' ? 'Not Paid' : 'Paid',
+        Order_Status: 'Pending',
+        Reseller_Commission: 0
+      };
+
+      // Save order to LocalStorage & redirect to Success Voucher page
+      localStorage.setItem('dcbd_last_order', JSON.stringify(orderData));
+      currentCart = [];
+      localStorage.setItem('dcbd_cart', '[]');
+
+      // Fire to Apps Script API
+      try {
+        fetch(APP_CONFIG.appScriptUrl, {
+          method: 'POST',
+          body: JSON.stringify({ action: 'createOrder', data: orderData })
+        });
+      } catch (err) {}
+
+      window.location.href = `order-success.html?orderId=${orderId}`;
+    });
+  });
+</script>
+
+
+  <!-- Fixed Floating Actions -->
+  <div class="fixed-floating-actions">
+    <div class="float-btn-group">
+      <a href="cart.html" class="float-main-btn cart" title="View Cart">
+        <i class="fa fa-shopping-cart"></i>
+        <span class="float-badge cart-count-badge">0</span>
+      </a>
+    </div>
+
+    <div class="float-btn-group" id="float-whatsapp">
+      <button class="float-main-btn whatsapp" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </button>
+      <div class="sub-buttons-popup">
+        <a href="https://wa.me/8801581703822" target="_blank" class="sub-btn-item">
+          <i class="fab fa-whatsapp" style="color: #25d366;"></i> 01581703822
+        </a>
+        <a href="https://wa.me/8801818273838" target="_blank" class="sub-btn-item">
+          <i class="fab fa-whatsapp" style="color: #25d366;"></i> 01818273838
+        </a>
+      </div>
+    </div>
+
+    <div class="float-btn-group" id="float-call">
+      <button class="float-main-btn call" title="Call Us Directly">
+        <i class="fa fa-phone"></i>
+      </button>
+      <div class="sub-buttons-popup">
+        <a href="tel:01581703822" class="sub-btn-item">
+          <i class="fa fa-phone" style="color: #0077b6;"></i> 01581703822
+        </a>
+        <a href="tel:01818273838" class="sub-btn-item">
+          <i class="fa fa-phone" style="color: #0077b6;"></i> 01818273838
+        </a>
+      </div>
+    </div>
+
+    <div class="float-btn-group">
+      <a href="live-chat.html" class="float-main-btn chat" title="Live Chat Support">
+        <i class="fa fa-comments"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7IMYDMkNYleCqUCLvSDtcioP1MAENEONLcelVu_7byA&s=10" alt="Logo" style="height: 40px; border-radius: 4px;">
+            <h3 style="color: white; font-size: 20px; font-weight: 800;">Dream Cart BD</h3>
+          </div>
+          <p style="font-size: 13px; color: #94a3b8; line-height: 1.6; margin-bottom: 15px;">
+            আপনার বিশ্বস্ত অনলাইন শপিং পার্টনার। প্রিমিয়াম কোয়ালিটি ও সঠিক মান নিয়ন্ত্রিত পণ্য সরাসরি সরবরাহ করে থাকি।
+          </p>
+          <div class="footer-social-icons">
+            <a href="https://facebook.com" target="_blank" class="social-icon-btn"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/8801581703822" target="_blank" class="social-icon-btn"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://youtube.com" target="_blank" class="social-icon-btn"><i class="fab fa-youtube"></i></a>
+            <a href="https://instagram.com" target="_blank" class="social-icon-btn"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>গুরুত্বপূর্ণ পেজ</h4>
+          <ul>
+            <li><a href="index.html">হোম পেজ</a></li>
+            <li><a href="products.html">সকল প্রোডাক্টস</a></li>
+            <li><a href="categories.html">ক্যাটাগরি সমূহ</a></li>
+            <li><a href="brands.html">ব্র্যান্ড সমূহ</a></li>
+            <li><a href="others-market.html">অন্যান্য মার্কেটপ্লেস</a></li>
+            <li><a href="tracking.html">অর্ডার ট্র্যাকিং</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>পোর্টাল ও পলিসি</h4>
+          <ul>
+            <li><a href="customer/login.html">কাস্টমার পোর্টাল</a></li>
+            <li><a href="reseller/login.html">রিসেলার পোর্টাল</a></li>
+            <li><a href="wholesaler/login.html">হোলসেলার পোর্টাল</a></li>
+            <li><a href="admin/login.html">অ্যাডমিন / স্টাফ প্যানেল</a></li>
+            <li><a href="terms.html">শর্তাবলী (Terms)</a></li>
+            <li><a href="privacy.html">প্রাইভেসি পলিসি</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>যোগাযোগ ও ঠিকানা</h4>
+          <p style="font-size: 13px; color: #94a3b8; margin-bottom: 8px;">
+            <i class="fa fa-map-marker-alt" style="color: var(--secondary);"></i> BaraPara, Adarsha Sadar, Cumilla, Bangladesh
+          </p>
+          <p style="font-size: 13px; color: #94a3b8; margin-bottom: 8px;">
+            <i class="fa fa-phone" style="color: var(--secondary);"></i> 01581703822, 01818273838
+          </p>
+          <p style="font-size: 13px; color: #94a3b8; margin-bottom: 8px;">
+            <i class="fa fa-clock" style="color: var(--secondary);"></i> অফিস সময়: প্রতিদিন সকাল ৮:০০ - রাত ১০:০০
+          </p>
+        </div>
+      </div>
+
+      <div class="payment-banner">
+        <div style="font-size: 14px; font-weight: 600; color: white;">We Accept Payment Methods:</div>
+        <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+          <span style="background: white; color: #e2136e; font-weight: 800; padding: 4px 10px; border-radius: 4px; font-size: 12px;">bKash</span>
+          <span style="background: white; color: #f7941d; font-weight: 800; padding: 4px 10px; border-radius: 4px; font-size: 12px;">Nagad</span>
+          <span style="background: white; color: #8c2d76; font-weight: 800; padding: 4px 10px; border-radius: 4px; font-size: 12px;">Rocket</span>
+          <span style="background: white; color: #1e3c72; font-weight: 800; padding: 4px 10px; border-radius: 4px; font-size: 12px;">Visa / Master Card</span>
+          <span style="background: white; color: #10b981; font-weight: 800; padding: 4px 10px; border-radius: 4px; font-size: 12px;">Cash On Delivery</span>
+        </div>
+      </div>
+
+      <div class="copyright-bar">
+        Developed by <a href="https://dcitbd.github.io/Jainal-Abedin/" target="_blank" style="color: #60a5fa; font-weight: 600;">Jainal Abedin</a> (CEO, <a href="https://dcitbd.github.io/dcitbd/" target="_blank" style="color: #60a5fa;">Dream Career IT BD</a>) • All Rights Reserved © 2026 Dream Cart BD
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

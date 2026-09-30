@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="bn" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>সকল প্রোডাক্টস | Dream Cart BD</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7IMYDMkNYleCqUCLvSDtcioP1MAENEONLcelVu_7byA&s=10">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Notice Bar -->
+  <div class="notice-bar">
+    <div class="container notice-bar-inner">
+      <div class="notice-ticker">
+        <span class="notice-ticker-text">
+          📢 ৳২,০০০ বা তার বেশি অর্ডারে ফ্রি শিপিং! • অনলাইনে অর্ডার করুন, পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন • অনলাইনে পেমেন্ট করলে ৫% ডিসকাউন্ট! • হেল্পলাইন: 01581703822, 01818273838
+        </span>
+      </div>
+      <div class="notice-contacts">
+        <a href="tel:01581703822"><i class="fa fa-phone-alt"></i> 01581703822</a>
+        <a href="https://wa.me/8801581703822" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo-wrap">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7IMYDMkNYleCqUCLvSDtcioP1MAENEONLcelVu_7byA&s=10" alt="Dream Cart BD Logo">
+        <span>Dream Cart BD</span>
+      </a>
+
+      <div class="search-wrapper">
+        <div class="search-input-group">
+          <i class="fa fa-search" style="color: var(--text-muted); margin-right: 6px;"></i>
+          <input type="text" class="live-search-input" placeholder="পণ্য বা মডেল দিয়ে সার্চ করুন..." autocomplete="off">
+        </div>
+        <div class="search-preview-box"></div>
+      </div>
+
+      <div class="nav-actions">
+        <a href="products.html" class="nav-btn"><i class="fa fa-th-large"></i> <span>Products</span></a>
+        <a href="cart.html" class="nav-btn">
+          <i class="fa fa-shopping-cart"></i> <span>Cart</span>
+          <span class="nav-badge cart-count-badge">0</span>
+        </a>
+        <a href="favourite.html" class="nav-btn" title="Favourite">
+          <i class="fa fa-heart"></i>
+          <span class="nav-badge fav-count-badge">0</span>
+        </a>
+        <a href="customer/login.html" class="nav-btn" id="nav-auth-btn"><i class="fa fa-user"></i> <span>Login</span></a>
+        <button class="theme-toggle-btn" title="Toggle Dark/Light Mode"><i class="fas fa-moon"></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Body -->
+  
+<main class="container" style="margin-top: 24px;">
+  <div style="display: flex; gap: 24px; flex-wrap: wrap;">
+    <!-- Filters Sidebar -->
+    <aside style="flex: 1; min-width: 250px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 20px; height: fit-content;">
+      <h3 style="font-size: 16px; font-weight: 800; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 8px;">
+        ফিল্টার অপশন
+      </h3>
+
+      <!-- 3-Tier Category Tree -->
+      <div style="margin-bottom: 20px;">
+        <label style="font-size: 13px; font-weight: 700; margin-bottom: 6px; display: block;">ক্যাটাগরি</label>
+        <select id="filter-category" style="width: 100%; padding: 8px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-main); margin-bottom: 8px;">
+          <option value="">সকল ক্যাটাগরি</option>
+        </select>
+
+        <label style="font-size: 13px; font-weight: 700; margin-bottom: 6px; display: block;">সাব-ক্যাটাগরি</label>
+        <select id="filter-subcategory" style="width: 100%; padding: 8px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-main); margin-bottom: 8px;">
+          <option value="">সকল সাব-ক্যাটাগরি</option>
+        </select>
+
+        <label style="font-size: 13px; font-weight: 700; margin-bottom: 6px; display: block;">চাইল্ড ক্যাটাগরি</label>
+        <select id="filter-childcategory" style="width: 100%; padding: 8px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-main);">
+          <option value="">সকল চাইল্ড ক্যাটাগরি</option>
+        </select>
+      </div>
+
+      <!-- Filter by Brand -->
+      <div style="margin-bottom: 20px;">
+        <label style="font-size: 13px; font-weight: 700; margin-bottom: 6px; display: block;">ব্র্যান্ড</label>
+        <select id="filter-brand" style="width: 100%; padding: 8px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-main);">
+          <option value="">সকল ব্র্যান্ড</option>
+        </select>
+      </div>
+
+      <!-- Filter by Stock -->
+      <div style="margin-bottom: 20px;">
+        <label style="font-size: 13px; font-weight: 700; margin-bottom: 6px; display: block;">স্টক অবস্থা</label>
+        <select id="filter-stock" style="width: 100%; padding: 8px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-main);">
+          <option value="">সকল পণ্য</option>
+          <option value="in_stock">ইন-স্টক পণ্য</option>
+          <option value="out_stock">প্রি-অর্ডার / আউট অফ স্টক</option>
+        </select>
+      </div>
+
+      <!-- Price Sort -->
+      <div style="margin-bottom: 20px;">
+        <label style="font-size: 13px; font-weight: 700; margin-bottom: 6px; display: block;">মূল্য সর্টিং</label>
+        <select id="sort-price" style="width: 100%; padding: 8px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-main);">
+          <option value="default">ডিফল্ট</option>
+          <option value="low_high">কম থেকে বেশি</option>
+          <option value="high_low">বেশি থেকে কম</option>
+        </select>
+      </div>
+
+      <button id="reset-filters" style="width: 100%; background: var(--bg-surface); border: 1px solid var(--border-color); color: var(--text-main); padding: 8px; border-radius: var(--radius-sm); font-weight: 700; cursor: pointer;">ফিল্টার রিসেট</button>
+    </aside>
+
+    <!-- Product Showcase Area -->
+    <section style="flex: 3; min-width: 300px;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <h2 style="font-size: 20px; font-weight: 800;">সকল প্রোডাক্টস (<span id="product-count-display">0</span>টি পণ্য)</h2>
+        <span style="font-size: 12px; color: var(--text-muted);">প্রতি পেজে ৬০টি পণ্য প্রদর্শিত</span>
+      </div>
+
+      <div class="products-grid" id="all-products-grid">
+        <!-- Injected by JS -->
+      </div>
+    </section>
+  </div>
+</main>
+
+<script>
+  document.addEventListener('DOMContentLoaded', async () => {
+    const db = await loadDatabase();
+    const products = db.products || [];
+
+    const catSelect = document.getElementById('filter-category');
+    const subSelect = document.getElementById('filter-subcategory');
+    const childSelect = document.getElementById('filter-childcategory');
+    const brandSelect = document.getElementById('filter-brand');
+    const stockSelect = document.getElementById('filter-stock');
+    const sortSelect = document.getElementById('sort-price');
+    const grid = document.getElementById('all-products-grid');
+    const countDisplay = document.getElementById('product-count-display');
+
+    // Populate Category Dropdowns
+    const categories = [...new Set(products.map(p => p.Category).filter(Boolean))];
+    categories.forEach(c => catSelect.innerHTML += `<option value="${c}">${c}</option>`);
+
+    // Populate Brands
+    const brands = [...new Set(products.map(p => p.Brand).filter(Boolean))];
+    brands.forEach(b => brandSelect.innerHTML += `<option value="${b}">${b}</option>`);
+
+    // Check URL query parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('category')) catSelect.value = urlParams.get('category');
+    if (urlParams.get('brand')) brandSelect.value = urlParams.get('brand');
+
+    function filterAndRender() {
+      let filtered = [...products];
+
+      if (catSelect.value) filtered = filtered.filter(p => p.Category === catSelect.value);
+      if (brandSelect.value) filtered = filtered.filter(p => p.Brand === brandSelect.value);
+      if (stockSelect.value === 'in_stock') filtered = filtered.filter(p => parseInt(p.Stock) > 0);
+      if (stockSelect.value === 'out_stock') filtered = filtered.filter(p => parseInt(p.Stock) <= 0);
+
+      if (sortSelect.value === 'low_high') filtered.sort((a,b) => parseFloat(a.Selling_Price) - parseFloat(b.Selling_Price));
+      if (sortSelect.value === 'high_low') filtered.sort((a,b) => parseFloat(b.Selling_Price) - parseFloat(a.Selling_Price));
+
+      countDisplay.textContent = filtered.length;
+      grid.innerHTML = filtered.map(p => renderProductCardHTML(p)).join('');
+    }
+
+    catSelect.addEventListener('change', filterAndRender);
+    brandSelect.addEventListener('change', filterAndRender);
+    stockSelect.addEventListener('change', filterAndRender);
+    sortSelect.addEventListener('change', filterAndRender);
+    document.getElementById('reset-filters').addEventListener('click', () => {
+      catSelect.value = '';
+      brandSelect.value = '';
+      stockSelect.value = '';
+      sortSelect.value = 'default';
+      filterAndRender();
+    });
+
+    filterAndRender();
+  });
+</script>
+
+
+  <!-- Fixed Floating Actions -->
+  <div class="fixed-floating-actions">
+    <div class="float-btn-group">
+      <a href="cart.html" class="float-main-btn cart" title="View Cart">
+        <i class="fa fa-shopping-cart"></i>
+        <span class="float-badge cart-count-badge">0</span>
+      </a>
+    </div>
+
+    <div class="float-btn-group" id="float-whatsapp">
+      <button class="float-main-btn whatsapp" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </button>
+      <div class="sub-buttons-popup">
+        <a href="https://wa.me/8801581703822" target="_blank" class="sub-btn-item">
+          <i class="fab fa-whatsapp" style="color: #25d366;"></i> 01581703822
+        </a>
+        <a href="https://wa.me/8801818273838" target="_blank" class="sub-btn-item">
+          <i class="fab fa-whatsapp" style="color: #25d366;"></i> 01818273838
+        </a>
+      </div>
+    </div>
+
+    <div class="float-btn-group" id="float-call">
+      <button class="float-main-btn call" title="Call Us Directly">
+        <i class="fa fa-phone"></i>
+      </button>
+      <div class="sub-buttons-popup">
+        <a href="tel:01581703822" class="sub-btn-item">
+          <i class="fa fa-phone" style="color: #0077b6;"></i> 01581703822
+        </a>
+        <a href="tel:01818273838" class="sub-btn-item">
+          <i class="fa fa-phone" style="color: #0077b6;"></i> 01818273838
+        </a>
+      </div>
+    </div>
+
+    <div class="float-btn-group">
+      <a href="live-chat.html" class="float-main-btn chat" title="Live Chat Support">
+        <i class="fa fa-comments"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7IMYDMkNYleCqUCLvSDtcioP1MAENEONLcelVu_7byA&s=10" alt="Logo" style="height: 40px; border-radius: 4px;">
+            <h3 style="color: white; font-size: 20px; font-weight: 800;">Dream Cart BD</h3>
+          </div>
+          <p style="font-size: 13px; color: #94a3b8; line-height: 1.6; margin-bottom: 15px;">
+            আপনার বিশ্বস্ত অনলাইন শপিং পার্টনার। প্রিমিয়াম কোয়ালিটি ও সঠিক মান নিয়ন্ত্রিত পণ্য সরাসরি সরবরাহ করে থাকি।
+          </p>
+          <div class="footer-social-icons">
+            <a href="https://facebook.com" target="_blank" class="social-icon-btn"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/8801581703822" target="_blank" class="social-icon-btn"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://youtube.com" target="_blank" class="social-icon-btn"><i class="fab fa-youtube"></i></a>
+            <a href="https://instagram.com" target="_blank" class="social-icon-btn"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>গুরুত্বপূর্ণ পেজ</h4>
+          <ul>
+            <li><a href="index.html">হোম পেজ</a></li>
+            <li><a href="products.html">সকল প্রোডাক্টস</a></li>
+            <li><a href="categories.html">ক্যাটাগরি সমূহ</a></li>
+            <li><a href="brands.html">ব্র্যান্ড সমূহ</a></li>
+            <li><a href="others-market.html">অন্যান্য মার্কেটপ্লেস</a></li>
+            <li><a href="tracking.html">অর্ডার ট্র্যাকিং</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>পোর্টাল ও পলিসি</h4>
+          <ul>
+            <li><a href="customer/login.html">কাস্টমার পোর্টাল</a></li>
+            <li><a href="reseller/login.html">রিসেলার পোর্টাল</a></li>
+            <li><a href="wholesaler/login.html">হোলসেলার পোর্টাল</a></li>
+            <li><a href="admin/login.html">অ্যাডমিন / স্টাফ প্যানেল</a></li>
+            <li><a href="terms.html">শর্তাবলী (Terms)</a></li>
+            <li><a href="privacy.html">প্রাইভেসি পলিসি</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>যোগাযোগ ও ঠিকানা</h4>
+          <p style="font-size: 13px; color: #94a3b8; margin-bottom: 8px;">
+            <i class="fa fa-map-marker-alt" style="color: var(--secondary);"></i> BaraPara, Adarsha Sadar, Cumilla, Bangladesh
+          </p>
+          <p style="font-size: 13px; color: #94a3b8; margin-bottom: 8px;">
+            <i class="fa fa-phone" style="color: var(--secondary);"></i> 01581703822, 01818273838
+          </p>
+          <p style="font-size: 13px; color: #94a3b8; margin-bottom: 8px;">
+            <i class="fa fa-clock" style="color: var(--secondary);"></i> অফিস সময়: প্রতিদিন সকাল ৮:০০ - রাত ১০:০০
+          </p>
+        </div>
+      </div>
+
+      <div class="payment-banner">
+        <div style="font-size: 14px; font-weight: 600; color: white;">We Accept Payment Methods:</div>
+        <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+          <span style="background: white; color: #e2136e; font-weight: 800; padding: 4px 10px; border-radius: 4px; font-size: 12px;">bKash</span>
+          <span style="background: white; color: #f7941d; font-weight: 800; padding: 4px 10px; border-radius: 4px; font-size: 12px;">Nagad</span>
+          <span style="background: white; color: #8c2d76; font-weight: 800; padding: 4px 10px; border-radius: 4px; font-size: 12px;">Rocket</span>
+          <span style="background: white; color: #1e3c72; font-weight: 800; padding: 4px 10px; border-radius: 4px; font-size: 12px;">Visa / Master Card</span>
+          <span style="background: white; color: #10b981; font-weight: 800; padding: 4px 10px; border-radius: 4px; font-size: 12px;">Cash On Delivery</span>
+        </div>
+      </div>
+
+      <div class="copyright-bar">
+        Developed by <a href="https://dcitbd.github.io/Jainal-Abedin/" target="_blank" style="color: #60a5fa; font-weight: 600;">Jainal Abedin</a> (CEO, <a href="https://dcitbd.github.io/dcitbd/" target="_blank" style="color: #60a5fa;">Dream Career IT BD</a>) • All Rights Reserved © 2026 Dream Cart BD
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

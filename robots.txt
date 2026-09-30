@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /customer/
+Disallow: /reseller/
+Disallow: /wholesaler/
+
+Sitemap: https://dreamcartbd.com/sitemap.xml

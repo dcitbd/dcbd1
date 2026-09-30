@@ -1,0 +1,15 @@
+{
+  "name": "Dream Cart BD",
+  "short_name": "DreamCartBD",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e3c72",
+  "icons": [
+    {
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7IMYDMkNYleCqUCLvSDtcioP1MAENEONLcelVu_7byA&s=10",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

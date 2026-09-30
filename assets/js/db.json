@@ -1,0 +1,435 @@
+{
+  "settings": {
+    "shop_name": "Dream Cart BD",
+    "slogan": "আপনার বিশ্বস্ত অনলাইন শপিং পার্টনার",
+    "description": "Dream Cart BD বাংলাদেশের অন্যতম বিশ্বস্ত ই-কমার্স প্ল্যাটফর্ম। আমরা প্রিমিয়াম কোয়ালিটি ও সঠিক মান নিয়ন্ত্রিত পণ্য সরাসরি সরবরাহ করে থাকি।",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7IMYDMkNYleCqUCLvSDtcioP1MAENEONLcelVu_7byA&s=10",
+    "developer_name": "Jainal Abedin",
+    "developer_title": "CEO, Dream Career IT BD",
+    "developer_url": "https://dcitbd.github.io/Jainal-Abedin/",
+    "developer_company_url": "https://dcitbd.github.io/dcitbd/",
+    "developer_image": "https://scontent.fdac24-5.fna.fbcdn.net/v/t39.99422-6/748763443_1355179329312781_3762544494183960829_n.png?stp=dst-jpg_tt6&cstp=mx876x1414&ctp=s876x1414&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ulolVsVxolUQ7kNvwFbbn_s&_nc_oc=Adqwy7DrnjEKjOAfZPttbAGnlBGmXslovULfm4dCZditFerwrSiULyvnQBwCwT-ctOY&_nc_zt=14&_nc_ht=scontent.fdac24-5.fna&_nc_gid=QjQg-WZiaHQGDcl9YGAVCA&_nc_ss=7b2a8&oh=00_AQOthzROIPmAhM-IMyLs5b5IxRzmoCsj5_Ucs02h26YSdw&oe=6AC34270",
+    "phones": [
+      "01581703822",
+      "01818273838",
+      "01879653143"
+    ],
+    "email": "jainal.dcitbd@gmail.com",
+    "address": "BaraPara, Adarsha Sadar, Cumilla, Bangladesh",
+    "office_time": "Every Day 8:00 AM to 10:00 PM",
+    "sheet_id": "1BGi8IXV6S7uXDi4IaR_sCJYhtpfzyLGuldo4NnGVmR8",
+    "appscript_url": "https://script.google.com/macros/s/AKfycbwflHuBqMKWpKPTTVNY-grU_dnNphwELXbk6Hn-wcBjxJk4xvqScmT2n8i3ZQCStMI3/exec",
+    "delivery_fees": {
+      "dhaka": 90,
+      "cumilla": 70,
+      "outside_dhaka": 120,
+      "office_pickup": 0
+    },
+    "offers": {
+      "free_delivery_min": 2000,
+      "online_payment_discount_pct": 5,
+      "notice": "৳২,০০০ বা তার বেশি অর্ডারে ফ্রি শিপিং! অনলাইনে অর্ডার করুন, পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন। অনলাইনে পেমেন্ট করলে ৫% ডিসকাউন্ট।"
+    },
+    "payment_info": {
+      "bkash_personal": "01879653143",
+      "bkash_merchant": "01581703822",
+      "bkash_online_link": "https://shop.bkash.com/j-a-sagor-computer01581703822/paymentlink",
+      "nagad_personal": "01879653143",
+      "rocket_personal": "01581703822",
+      "bank": "Jainal Abedin\n20508070200030208\nMaheshkhali Sub branch\nRouting: 125260525\nIBBLBDDH"
+    }
+  },
+  "brands": [
+    {
+      "Brand_ID": "dcbd-b-00001",
+      "Brand_Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVEtM5z7--PFavdhFm4Pun_Cs_BGDQUVcw2RUm_y0CVOAqXjBhiQz6p_s9&s=10",
+      "Brand_Name": "China Brand",
+      "Brand_Slug": "China-Brand",
+      "Brand_Description": "China Brand - from china imported"
+    },
+    {
+      "Brand_ID": "dcbd-b-00002",
+      "Brand_Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7IMYDMkNYleCqUCLvSDtcioP1MAENEONLcelVu_7byA&s=10",
+      "Brand_Name": "Dream Cart BD",
+      "Brand_Slug": "Dream-Cart-BD",
+      "Brand_Description": "Dream Cart BD Premium In-House Collection"
+    },
+    {
+      "Brand_ID": "dcbd-b-00003",
+      "Brand_Image": "https://cdn-icons-png.flaticon.com/512/2972/2972185.png",
+      "Brand_Name": "Techno World BD",
+      "Brand_Slug": "Techno-World-BD",
+      "Brand_Description": "Original Camera and Optical Accessories"
+    }
+  ],
+  "categories": [
+    {
+      "Catagory_ID": "Dcbd-cat-001",
+      "Catagory_Slug": "watches-sunglasses-jewellery",
+      "Category_Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgkBJB3I23a1UG9CbITMkgJ87me-4eSOyHrXj5IVXLHg&s",
+      "Category": "Watches Sunglasses Jewellery",
+      "Sub_Category": "Jewellery",
+      "Chail_Category": "Rings"
+    },
+    {
+      "Catagory_ID": "Dcbd-cat-002",
+      "Catagory_Slug": "jewellery-earrings",
+      "Category_Image": "https://packly-local.s3.ap-southeast-1.amazonaws.com/media/20260808_003020_8bf8448e-404f-4530-b52b-4700c4ee6a2a.jpg",
+      "Category": "Watches Sunglasses Jewellery",
+      "Sub_Category": "Jewellery",
+      "Chail_Category": "Earrings"
+    },
+    {
+      "Catagory_ID": "Dcbd-cat-003",
+      "Catagory_Slug": "electronics-gadgets",
+      "Category_Image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500&q=80",
+      "Category": "Consumer Electronics",
+      "Sub_Category": "Audio",
+      "Chail_Category": "Bluetooth Speakers"
+    },
+    {
+      "Catagory_ID": "Dcbd-cat-004",
+      "Catagory_Slug": "cameras-optics",
+      "Category_Image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500&q=80",
+      "Category": "Cameras & Optics",
+      "Sub_Category": "Digital Cameras",
+      "Chail_Category": "Compact & Mirrorless"
+    }
+  ],
+  "products": [
+    {
+      "SKU": "Chi-Ali-000001",
+      "P_Name": "Smart Stainless Steel Multifunctional Ring for Couple Mood Feeling Intelligent Temperature Sensitive Rings Waterproof Jewelry",
+      "Category": "Watches Sunglasses Jewellery",
+      "Sub_Category": "Jewellery",
+      "Child_Category": "Rings",
+      "Brand": "China Brand",
+      "Buying_price": 98,
+      "Selling_Price": 194,
+      "Stock": 3,
+      "Original_Price": 1845,
+      "WholeSale_price": 123,
+      "Min_order_Q": "10 Pcs",
+      "Images": "https://img.drz.lazcdn.com/g/kf/S4ab09cc5364240ea8034e02f35e7c13dJ.jpg_720x720q80.jpg",
+      "Slug": "Chi-Ali-000001",
+      "Description": "Dream Cart BD-তে নিয়ে এলো আধুনিক ও স্টাইলিশ Smart Stainless Steel Multifunctional Ring for Couple Mood Feeling Intelligent Temperature Sensitive Rings Waterproof Jewelry। এটি সাধারণ কোনো আংটি নয়, বরং একটি স্মার্ট ও মাল্টিফাংশনাল টেম্পারেচার সেনসিটিভ ইন্টেলিজেন্ট রিং। উচ্চমানের স্টেইনলেস স্টিল (Stainless Steel) দিয়ে তৈরি এই আংটিটি ওয়াটারপ্রুফ (Waterproof), যা আপনার দৈনন্দিন ব্যবহারে দীর্ঘস্থায়িত্ব নিশ্চিত করে।",
+      "Specification": "১. পণ্যের নাম: Smart Stainless Steel Multifunctional Ring for Couple\n২. ধরন: Smart Ring / Temperature Sensitive Ring / Waterproof Jewelry\n৩. ম্যাটেরিয়াল: Stainless Steel\n৪. বিশেষ ফিচার: Intelligent Temperature Sensitive, Multifunctional, Waterproof\n৫. ডিজাইন: Couple Ring / Mood Ring\n৬. ব্যবহারকারী: Couple / Men & Women",
+      "Others": "অন্যান্য তথ্য:\n- প্রিমিয়াম কোয়ালিটি ও সঠিক মান নিয়ন্ত্রণ\n- ক্যাশ অন ডেলিভারি সুবিধা\n- নিরাপদ প্যাকেজিং\n- সার্বক্ষণিক কাস্টমার সাপোর্ট",
+      "Color": "Silver",
+      "Size": "6cm",
+      "WEIGHT_KG": "0.01 kg",
+      "WIDTH_CM": "20",
+      "LENGTH_CM": "20",
+      "HEIGHT_CM": "15"
+    },
+    {
+      "SKU": "Chi-Ali-000002",
+      "P_Name": "Pretty 925 Sterling Silver Snowflake Crystal Zircon Ear Clips Without Piercing for Women Girls Wedding Party Trendy Jewelry Gift",
+      "Category": "Watches Sunglasses Jewellery",
+      "Sub_Category": "Jewellery",
+      "Child_Category": "Earrings",
+      "Brand": "China Brand",
+      "Buying_price": 282,
+      "Selling_Price": 423,
+      "Stock": 7,
+      "Original_Price": 1041,
+      "WholeSale_price": 353,
+      "Min_order_Q": "10 Pcs",
+      "Images": "https://packly-local.s3.ap-southeast-1.amazonaws.com/media/20260808_003020_8bf8448e-404f-4530-b52b-4700c4ee6a2a.jpg",
+      "Slug": "Chi-Ali-000002",
+      "Description": "Dream Cart BD নিয়ে এলো অত্যন্ত আকর্ষণীয় এবং ট্রেন্ডি Pretty 925 Sterling Silver Snowflake Crystal Zircon Ear Clips Without Piercing for Women Girls Wedding Party Trendy Jewelry Gift। যাদের কান ফোঁড়ানো নেই, তাদের জন্য এই ইয়ার ক্লিপটি একটি পারফেক্ট ফ্যাশন অনুষঙ্গ। কোনো প্রকার পিয়ার্সিং বা কান ফোঁড়ানো ছাড়াই এটি সহজে কানে পরা যায়, যা আপনাকে দেবে আরামদায়ক ও নিখুঁত ফিটিং।",
+      "Specification": "১. পণ্যের নাম: Pretty 925 Sterling Silver Snowflake Crystal Zircon Ear Clips\n২. ধরন: Ear Clips / Non-Pierced Earrings\n৩. ম্যাটেরিয়াল: 925 Sterling Silver, Crystal, Zircon\n৪. ডিজাইন: Snowflake\n৫. ব্যবহারকারী: Women / Girls",
+      "Others": "অন্যান্য তথ্য:\n- নন-পিয়ার্সিং আরামদায়ক ক্লিপ ডিজাইন\n- পার্টি ও বিয়ের অনুষ্ঠানে দারুণ মানায়\n- আকর্ষণীয় গিফট প্যাকেজিং",
+      "Color": "Silver / Crystal",
+      "Size": "Free Size",
+      "WEIGHT_KG": "0.02 kg",
+      "WIDTH_CM": "15",
+      "LENGTH_CM": "15",
+      "HEIGHT_CM": "10"
+    },
+    {
+      "SKU": "DCBD-AUD-000003",
+      "P_Name": "D7 Mini Bluetooth Multimedia Speaker Portable Wireless Bass Sound System",
+      "Category": "Consumer Electronics",
+      "Sub_Category": "Audio",
+      "Child_Category": "Bluetooth Speakers",
+      "Brand": "Dream Cart BD",
+      "Buying_price": 260,
+      "Selling_Price": 400,
+      "Stock": 15,
+      "Original_Price": 850,
+      "WholeSale_price": 310,
+      "Min_order_Q": "5 Pcs",
+      "Images": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=600&q=80",
+      "Slug": "DCBD-AUD-000003",
+      "Description": "D7 Mini Bluetooth Multimedia Speaker - চমৎকার সাউন্ড কোয়ালিটি এবং স্ট্রং বেস সমৃদ্ধ পোর্টেবল স্পিকার। যেকোনো মোবাইল, ল্যাপটপ বা ট্যাবলেটের সাথে সহজে সংযুক্ত করুন। দীর্ঘস্থায়ী ব্যাটারি ব্যাকআপ।",
+      "Specification": "১. মডেল: D7 Mini\n২. কানেক্টিভিটি: Bluetooth 5.0, AUX, TF Card, USB\n৩. ব্যাটারি: 1200mAh Rechargeable\n৪. আউটপুট: 5W High Bass\n৫. কালার অপশন: Black, Blue, Red",
+      "Others": "হাই কোয়ালিটি বিল্ট-ইন মাইক্রোফোন দিয়ে হ্যান্ডস-ফ্রি কলিং সাপোর্ট।",
+      "Color": "Black",
+      "Size": "Compact",
+      "WEIGHT_KG": "0.25 kg",
+      "WIDTH_CM": "10",
+      "LENGTH_CM": "10",
+      "HEIGHT_CM": "12"
+    },
+    {
+      "SKU": "DCBD-CAM-000004",
+      "P_Name": "Professional Digital Camera Optical Zoom 4K Ultra HD Vlogging & Video Recorder",
+      "Category": "Cameras & Optics",
+      "Sub_Category": "Digital Cameras",
+      "Child_Category": "Compact & Mirrorless",
+      "Brand": "Techno World BD",
+      "Buying_price": 12500,
+      "Selling_Price": 16500,
+      "Stock": 0,
+      "Original_Price": 22000,
+      "WholeSale_price": 14200,
+      "Min_order_Q": "2 Pcs",
+      "Images": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&q=80",
+      "Slug": "DCBD-CAM-000004",
+      "Description": "Techno World BD ইম্পোর্টেড প্রিমিয়াম 4K আল্ট্রা এইচডি ভ্লগিং ক্যামেরা। ১৬এক্স ডিজিটাল জুম, ফ্লিপ স্ক্রিন এবং হাই পারফরম্যান্স অটোফোকাস ফিচার। বর্তমানে স্টক শেষ হওয়ায় প্রি-অর্ডার চলছে।",
+      "Specification": "১. রেজোলিউশন: 4K 60FPS Video / 48MP Photo\n২. স্ক্রিন: 3.0 Inch 180° Flip Screen\n৩. কানেক্টিভিটি: WiFi, HDMI, USB-C\n৪. স্টোরেজ: Supports up to 128GB MicroSD",
+      "Others": "স্টক আউট - প্রি-অর্ডার করলে ৭ থেকে ১০ দিনের মধ্যে ডেলিভারি পাবেন।",
+      "Color": "Classic Black",
+      "Size": "Standard",
+      "WEIGHT_KG": "0.45 kg",
+      "WIDTH_CM": "14",
+      "LENGTH_CM": "12",
+      "HEIGHT_CM": "8"
+    }
+  ],
+  "banners": [
+    {
+      "Banner_ID": "BAN-001",
+      "Title": "গ্র্যান্ড ওপেনিং স্পেশাল অফার - ২০০০ টাকার অর্ডারে ফ্রি ডেলিভারি!",
+      "Image_URL": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1600&q=80",
+      "Link": "products.html",
+      "Sort_Order": 1,
+      "Status": "Active"
+    },
+    {
+      "Banner_ID": "BAN-002",
+      "Title": "অনলাইন পেমেন্টে ৫% নিশ্চিত ক্যাশব্যাক ও ছাড়!",
+      "Image_URL": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=1600&q=80",
+      "Link": "products.html",
+      "Sort_Order": 2,
+      "Status": "Active"
+    },
+    {
+      "Banner_ID": "BAN-003",
+      "Title": "প্রিমিয়াম জুয়েলারি ও ক্যামেরা অ্যাক্সেসরিজ কালেকশন",
+      "Image_URL": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1600&q=80",
+      "Link": "products.html",
+      "Sort_Order": 3,
+      "Status": "Active"
+    }
+  ],
+  "users": {
+    "admin": {
+      "USER_ID": "dcibd-em-000001",
+      "Profile_Photo": "https://scontent.fdac24-5.fna.fbcdn.net/v/t39.99422-6/748763443_1355179329312781_3762544494183960829_n.png?stp=dst-jpg_tt6&cstp=mx876x1414&ctp=s876x1414&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ulolVsVxolUQ7kNvwFbbn_s&_nc_oc=Adqwy7DrnjEKjOAfZPttbAGnlBGmXslovULfm4dCZditFerwrSiULyvnQBwCwT-ctOY&_nc_zt=14&_nc_ht=scontent.fdac24-5.fna&_nc_gid=QjQg-WZiaHQGDcl9YGAVCA&_nc_ss=7b2a8&oh=00_AQOthzROIPmAhM-IMyLs5b5IxRzmoCsj5_Ucs02h26YSdw&oe=6AC34270",
+      "Name": "Jainal Abedin",
+      "Mobile": "01581703822",
+      "Mail": "jainal.dcitbd@gmail.com",
+      "Address": "BaraPara, Adarsha Sadar, Cumilla",
+      "Worker_Type": "Super Admin",
+      "Role": "Full Access",
+      "User_Name": "01581703822",
+      "Password": "DCBD@2026"
+    },
+    "customer": {
+      "USER_ID": "DCBDsagor703",
+      "Profile_photo": "https://cdn-icons-png.flaticon.com/512/4042/4042356.png",
+      "Name": "Sagor",
+      "Mobile": "018789653143",
+      "Mail": "sagor@gmail.com",
+      "Address": "hjello jlkjl alkfdj ;aj",
+      "User_ID": "DCBDsagor703",
+      "Password": "DCBD@2026",
+      "Status": "Active",
+      "Success_order": 1,
+      "Cancel_Order": 0,
+      "Total_Order": 1,
+      "Order_Success_Rate": "100%"
+    },
+    "reseller": {
+      "Shop_ID": "Dcbd-resale-0001",
+      "Shop_logo": "https://c8.alamy.com/comp/2GMH6NG/resellers-text-written-on-green-grungy-zig-zag-borders-round-stamp-2GMH6NG.jpg",
+      "Name": "Sagor",
+      "Mobile": "01879653143",
+      "Mail": "sagor@gmail.com",
+      "Address": "বারো পাড়া",
+      "Shop_Name": "Shop Test",
+      "NID_Number": "45718451245",
+      "Date_of_birth": "2026-09-04",
+      "Trade_Licence_No": "456464984984",
+      "User_ID": "res_sagor",
+      "Password": "Jainal@2001",
+      "Status": "Approved"
+    },
+    "wholesaler": {
+      "Shop_ID": "Dcbd-wholesale-0001",
+      "Shop_logo": "https://png.pngtree.com/png-vector/20241009/ourlarge/pngtree-man-icon-under-circle-vector-png-image_14009934.png",
+      "Name": "Seller",
+      "Mobile": "1973703823",
+      "Mail": "meherisufia@gmail.com",
+      "Address": "Bara para, sadar dakshin",
+      "Shop_Name": "Seller BD",
+      "User_ID": "DCBDmeherisufia377",
+      "Password": "Meheri@2001",
+      "Status": "Approved"
+    }
+  },
+  "orders": [
+    {
+      "Date": "5/16/2026 19:57:31",
+      "OrderID": "DCBD-547049",
+      "Account_type": "WholeSaler",
+      "Customer_Name": "রায়হান",
+      "Phone": "01836816181",
+      "Address": "আদর্শ সদর কুমিল্লা- টেকনো ওয়ার্ল্ড এর চাকরীজীবি",
+      "Products": "D7 Mini Bluetooth Multimedia Speaker",
+      "Color": "Black",
+      "Size": "Compact",
+      "Quantity": 1,
+      "Total_Amount": 400,
+      "Payment_method": "Cash On Delivery (COD)",
+      "Transaction_ID": "",
+      "Payment_Status": "Paid",
+      "Order_Status": "Completed",
+      "Reseller_Commission": 0,
+      "Commission_Status": "N/A"
+    }
+  ],
+  "incomplete_orders": [
+    {
+      "Date": "9/30/2026, 1:23:43 AM",
+      "OrderID": "DCBD-INC-8153",
+      "Account_type": "WholeSaler",
+      "Customer_Name": "Jainal Abedin",
+      "Phone": "1973703823",
+      "Address": "Not specified",
+      "Products": "Smart Stainless Steel Multifunctional Ring for Couple Mood Feeling Intelligent Temperature Sensitive Rings Waterproof Jewelry",
+      "Total_Amount": 194,
+      "Status": "Incomplete"
+    }
+  ],
+  "viewers": [
+    {
+      "Time": "2026-09-07 12:27 PM",
+      "IP": "103.174.193.47",
+      "Address": "Bangladesh",
+      "Name": "Guest Visitor",
+      "Phone": "N/A",
+      "Device": "Desktop / Laptop",
+      "Activity": "Viewing Home Page"
+    }
+  ],
+  "others_market": [
+    {
+      "Shop_ID": "dcbdshop0001",
+      "Market_Logo": "https://store-images.s-microsoft.com/image/apps.8453.13655054093851568.4a371b72-2ce8-4bdb-9d83-be49894d3fa0.7f3687b9-847d-4f86-bb5c-c73259e2b38e",
+      "Market_Name": "WhatsApp Catalogue",
+      "Shop_Name": "Dream Cart BD",
+      "Shop_Link": "https://wa.me/c/8801581703822",
+      "Status": "Active"
+    },
+    {
+      "Shop_ID": "dcbdshop0002",
+      "Market_Logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0N9r7cOknHwB4J7y7A12lH2r9o3E8S2uQ_A&s",
+      "Market_Name": "Daraz BD",
+      "Shop_Name": "Dream Cart BD - Daraz Store",
+      "Shop_Link": "https://www.daraz.com.bd",
+      "Status": "Active"
+    },
+    {
+      "Shop_ID": "dcbdshop0003",
+      "Market_Logo": "https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg",
+      "Market_Name": "Facebook Shop",
+      "Shop_Name": "Dream Cart BD Official",
+      "Shop_Link": "https://facebook.com/dreamcartbd",
+      "Status": "Active"
+    }
+  ],
+  "reviews": [
+    {
+      "Review_ID": "REV-001",
+      "Product_SKU": "Chi-Ali-000001",
+      "Customer_Name": "Md. Tanvir Hasan",
+      "Rating": 5,
+      "Comment": "অসাধারণ আংটি! তাপমাত্রা অনুযায়ী কালার চেঞ্জ হয়। কাপলদের জন্য পারফেক্ট গিফট। প্যাকেজিং খুব সুন্দর ছিল।",
+      "Image": "https://img.drz.lazcdn.com/g/kf/S4ab09cc5364240ea8034e02f35e7c13dJ.jpg_720x720q80.jpg",
+      "Status": "Active",
+      "Date": "2026-09-15"
+    },
+    {
+      "Review_ID": "REV-002",
+      "Product_SKU": "Chi-Ali-000002",
+      "Customer_Name": "Nusrat Jahan",
+      "Rating": 5,
+      "Comment": "কান ফোঁড়ানোর ঝামেলা ছাড়াই এত চমৎকার ক্লিপ পরা যায় দেখে খুব ভালো লাগলো। জিরকন পাথরগুলো আলোতে চকচক করে।",
+      "Image": "https://packly-local.s3.ap-southeast-1.amazonaws.com/media/20260808_003020_8bf8448e-404f-4530-b52b-4700c4ee6a2a.jpg",
+      "Status": "Active",
+      "Date": "2026-09-20"
+    }
+  ],
+  "payments": [
+    {
+      "Request_ID": "REQ-1001",
+      "Reseller_ID": "Dcbd-resale-0001",
+      "Reseller_Name": "Sagor",
+      "Payment_Method": "Bkash Personal",
+      "Account_Details": "01879653143",
+      "Amount": 1000,
+      "Net_Amount_Less_3Percent": 970,
+      "Status": "Paid",
+      "Date": "2026-09-22",
+      "Transaction_ID": "TRX987654321"
+    }
+  ],
+  "landing_pages": [
+    {
+      "Slug": "smart-couple-ring",
+      "Slogan": "ভালোবাসার সেরা উপহার - ইন্টেলিজেন্ট টেম্পারেচার সেনসিটিভ কাপল রিং!",
+      "Main_Link": "../products.html",
+      "Products": "Chi-Ali-000001",
+      "Product_Images": "https://img.drz.lazcdn.com/g/kf/S4ab09cc5364240ea8034e02f35e7c13dJ.jpg_720x720q80.jpg",
+      "Review_Images": "https://img.drz.lazcdn.com/g/kf/S4ab09cc5364240ea8034e02f35e7c13dJ.jpg_720x720q80.jpg",
+      "Contact_Call": "01581703822",
+      "Contact_Whatsapp": "01581703822",
+      "Contact_Mail": "jainal.dcitbd@gmail.com",
+      "Social_Icons": "Facebook, WhatsApp, YouTube",
+      "Status": "Active"
+    }
+  ],
+  "buying": [
+    {
+      "Date": "2026-05-12",
+      "Who_Buy": "Saiful",
+      "Product_Name": "Camera",
+      "buying_price": "542 TK",
+      "Quantity": "12 TK",
+      "Total_buying": "6,504 TK",
+      "Supplier": "Ala uddin",
+      "Location": "Cumilla"
+    }
+  ],
+  "costs": [
+    {
+      "Date": "2026-05-12",
+      "Who_Paid": "Saiful",
+      "Purpose": "Camera",
+      "Amount": "10,521 TK",
+      "Note": "hi"
+    }
+  ],
+  "invest": [
+    {
+      "Date": "2026-05-12",
+      "Invest_type": "Camera",
+      "Name_of_investor": "Saiful",
+      "Amount": 10000,
+      "Note": "Okey"
+    }
+  ]
+}

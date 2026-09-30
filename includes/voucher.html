@@ -1,0 +1,99 @@
+<!-- Voucher / Invoice Component -->
+<div class="voucher-container" id="printable-voucher">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7IMYDMkNYleCqUCLvSDtcioP1MAENEONLcelVu_7byA&s=10" class="voucher-watermark" alt="Watermark">
+  
+  <div class="voucher-header">
+    <div>
+      <h2 style="color: #1e3c72; font-size: 24px; font-weight: 800; margin: 0;">Dream Cart BD</h2>
+      <p style="font-size: 13px; color: #64748b; margin: 2px 0;">আপনার বিশ্বস্ত অনলাইন শপিং পার্টনার</p>
+      <p style="font-size: 12px; color: #64748b;">BaraPara, Adarsha Sadar, Cumilla • 01581703822</p>
+    </div>
+    <div style="text-align: right;">
+      <span style="background: #e0f2fe; color: #0369a1; padding: 4px 10px; border-radius: 4px; font-size: 12px; font-weight: bold;">OFFICIAL INVOICE</span>
+      <h3 style="margin: 6px 0 0; color: #0f172a;" id="voucher-order-id">DCBD-000000</h3>
+      <p style="font-size: 12px; color: #64748b; margin: 2px 0;" id="voucher-date">Date: 2026-10-01</p>
+    </div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+    <div>
+      <h4 style="font-size: 13px; color: #64748b; text-transform: uppercase;">Customer Information</h4>
+      <p style="font-weight: 700; margin: 4px 0 2px;" id="voucher-cust-name">Customer Name</p>
+      <p style="font-size: 13px; margin: 0;" id="voucher-phone">01XXXXXXXXX</p>
+      <p style="font-size: 13px; margin: 0;" id="voucher-address">Delivery Address</p>
+    </div>
+    <div style="text-align: right;">
+      <h4 style="font-size: 13px; color: #64748b; text-transform: uppercase;">Payment Details</h4>
+      <p style="font-weight: 700; margin: 4px 0 2px;" id="voucher-payment-method">Cash On Delivery (COD)</p>
+      <p style="font-size: 13px; margin: 0;" id="voucher-payment-status">Status: Paid</p>
+      <p style="font-size: 13px; margin: 0;" id="voucher-account-type">Account Type: Customer</p>
+    </div>
+  </div>
+
+  <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 13px;">
+    <thead>
+      <tr style="background: #f1f5f9; border-bottom: 2px solid #cbd5e1;">
+        <th style="padding: 10px; text-align: left;">Product Item</th>
+        <th style="padding: 10px; text-align: center;">Qty</th>
+        <th style="padding: 10px; text-align: right;">Price</th>
+        <th style="padding: 10px; text-align: right;">Total</th>
+      </tr>
+    </thead>
+    <tbody id="voucher-items-body">
+      <tr>
+        <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;" id="voucher-product-name">Product Name</td>
+        <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;" id="voucher-qty">1</td>
+        <td style="padding: 10px; text-align: right; border-bottom: 1px solid #e2e8f0;" id="voucher-unit-price">৳0</td>
+        <td style="padding: 10px; text-align: right; border-bottom: 1px solid #e2e8f0;" id="voucher-total-price">৳0</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3" style="padding: 10px; text-align: right; font-weight: bold;">Grand Total:</td>
+        <td style="padding: 10px; text-align: right; font-weight: 800; font-size: 16px; color: #1e3c72;" id="voucher-grand-total">৳0</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <!-- Barcode Simulation SVG -->
+  <div class="voucher-barcode">
+    <svg width="220" height="40">
+      <rect x="0" y="0" width="3" height="40" fill="#000"/>
+      <rect x="6" y="0" width="2" height="40" fill="#000"/>
+      <rect x="12" y="0" width="4" height="40" fill="#000"/>
+      <rect x="20" y="0" width="2" height="40" fill="#000"/>
+      <rect x="26" y="0" width="6" height="40" fill="#000"/>
+      <rect x="36" y="0" width="3" height="40" fill="#000"/>
+      <rect x="44" y="0" width="2" height="40" fill="#000"/>
+      <rect x="52" y="0" width="4" height="40" fill="#000"/>
+      <rect x="60" y="0" width="2" height="40" fill="#000"/>
+      <rect x="68" y="0" width="5" height="40" fill="#000"/>
+      <rect x="80" y="0" width="3" height="40" fill="#000"/>
+      <rect x="88" y="0" width="4" height="40" fill="#000"/>
+      <rect x="98" y="0" width="2" height="40" fill="#000"/>
+      <rect x="106" y="0" width="6" height="40" fill="#000"/>
+      <rect x="118" y="0" width="3" height="40" fill="#000"/>
+      <rect x="126" y="0" width="2" height="40" fill="#000"/>
+      <rect x="134" y="0" width="4" height="40" fill="#000"/>
+      <rect x="144" y="0" width="3" height="40" fill="#000"/>
+      <rect x="154" y="0" width="5" height="40" fill="#000"/>
+      <rect x="166" y="0" width="2" height="40" fill="#000"/>
+      <rect x="174" y="0" width="4" height="40" fill="#000"/>
+      <rect x="184" y="0" width="3" height="40" fill="#000"/>
+      <rect x="194" y="0" width="2" height="40" fill="#000"/>
+      <rect x="202" y="0" width="5" height="40" fill="#000"/>
+      <rect x="214" y="0" width="2" height="40" fill="#000"/>
+    </svg>
+    <div style="font-family: monospace; font-size: 11px; margin-top: 4px;" id="voucher-barcode-text">DCBD-000000</div>
+  </div>
+
+  <div style="text-align: center; font-size: 12px; color: #64748b; margin-top: 20px; border-top: 1px solid #e2e8f0; padding-top: 15px;">
+    ধন্যবাদ Dream Cart BD-এর সাথে থাকার জন্য! আপনার সন্তুষ্টিই আমাদের সর্বোচ্চ অগ্রাধিকার।
+  </div>
+
+  <div class="no-print" style="margin-top: 24px; display: flex; justify-content: center; gap: 12px;">
+    <button onclick="window.print()" style="background: #1e3c72; color: white; border: none; padding: 10px 20px; border-radius: 6px; font-weight: 700; cursor: pointer;">
+      <i class="fa fa-print"></i> Print Voucher
+    </button>
+  </div>
+</div>
