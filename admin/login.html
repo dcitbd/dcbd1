@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="bn" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin & Staff Login | Dream Cart BD</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7IMYDMkNYleCqUCLvSDtcioP1MAENEONLcelVu_7byA&s=10">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body style="background: #0f172a; display: flex; align-items: center; justify-content: center; min-height: 100vh; color: white;">
+  <div style="background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 36px; max-width: 420px; width: 90%; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+    <div style="text-align: center; margin-bottom: 24px;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7IMYDMkNYleCqUCLvSDtcioP1MAENEONLcelVu_7byA&s=10" alt="Logo" style="height: 48px; border-radius: 6px; margin: 0 auto 10px;">
+      <h2 style="font-size: 20px; font-weight: 800;">অ্যাডমিন ও স্টাফ কনসোল</h2>
+      <p style="font-size: 12px; color: #94a3b8;">সঠিক রোল, ক্রেডেনশিয়াল এবং ক্যাপচা দিন</p>
+    </div>
+
+    <form id="admin-login-form">
+      <div style="margin-bottom: 14px;">
+        <label style="font-size: 12px; font-weight: 700; color: #cbd5e1; margin-bottom: 4px; display: block;">ওয়ার্কার টাইপ (Worker Type) *</label>
+        <select name="workerType" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #334155; background: #0f172a; color: white;">
+          <option value="Super Admin">Super Admin</option>
+          <option value="Admin">Admin</option>
+          <option value="Manager">Manager</option>
+          <option value="Staff">Staff</option>
+          <option value="Order Management">Order Management</option>
+          <option value="Accountant">Accountant</option>
+          <option value="IT/Technical">IT/Technical</option>
+        </select>
+      </div>
+
+      <div style="margin-bottom: 14px;">
+        <label style="font-size: 12px; font-weight: 700; color: #cbd5e1; margin-bottom: 4px; display: block;">ইউজার নেম / মোবাইল *</label>
+        <input type="text" name="username" required value="01581703822" placeholder="01581703822" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #334155; background: #0f172a; color: white;">
+      </div>
+
+      <div style="margin-bottom: 14px;">
+        <label style="font-size: 12px; font-weight: 700; color: #cbd5e1; margin-bottom: 4px; display: block;">পাসওয়ার্ড *</label>
+        <input type="password" name="password" required value="DCBD@2026" placeholder="******" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #334155; background: #0f172a; color: white;">
+      </div>
+
+      <!-- Security Captcha -->
+      <div style="margin-bottom: 20px;">
+        <label style="font-size: 12px; font-weight: 700; color: #cbd5e1; margin-bottom: 4px; display: block;">ক্যাপচা কোড যাচাই *</label>
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <div id="admin-captcha-display" title="Click to refresh captcha" style="background: #334155; color: #38bdf8; font-family: monospace; font-size: 20px; font-weight: 800; letter-spacing: 4px; padding: 8px 16px; border-radius: 6px; cursor: pointer; user-select: none;">
+            2026
+          </div>
+          <input type="text" id="admin-captcha-input" required placeholder="ক্যাপচা লিখুন" style="flex: 1; padding: 10px; border-radius: 6px; border: 1px solid #334155; background: #0f172a; color: white;">
+        </div>
+      </div>
+
+      <button type="submit" class="btn-order-now" style="width: 100%; padding: 12px; font-size: 14px; background: #2563eb;">
+        <i class="fa fa-lock"></i> প্যানেলে প্রবেশ করুন
+      </button>
+    </form>
+
+    <div style="text-align: center; margin-top: 16px; font-size: 12px;">
+      <a href="../index.html" style="color: #94a3b8;">← মূল ওয়েবসাইটে ফিরে যান</a>
+    </div>
+  </div>
+
+  <script src="../assets/js/app.js"></script>
+  <script src="../assets/js/admin.js"></script>
+</body>
+</html>
